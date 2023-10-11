@@ -13,7 +13,7 @@ export class LavaFlowForm extends FormApplication {
       height: 500,
       id: `${LavaFlow.ID}-form`,
       template: LavaFlow.TEMPLATES.IMPORTDIAG,
-      title: 'Import Obsidian MD Vault',
+      title: 'TEST Import',
       importSettings:
         ((game as Game).user?.getFlag(LavaFlow.FLAGS.SCOPE, LavaFlow.FLAGS.LASTSETTINGS) as LavaFlowSettings) ??
         new LavaFlowSettings(),
